@@ -687,10 +687,10 @@ Hard refresh the browser after rebuilding the API container.
 
 - no Alembic migrations yet; tables are created with `create_all`
 - no automated test suite yet
-- DTW is pure Python and will be slow at larger scale
+- DTW is pure Python and will be slow at a larger scale
 - training currently runs in-process, not as a background job
-- alerts currently depend on cluster filtering instead of a dedicated risk model
-- natural-language routing is only as good as the selected provider and prompt
+- Alerts currently depend on cluster filtering instead of a dedicated risk model
+- Natural-language routing is only as good as the selected provider and prompt
 
 ## Main Files To Read First
 
